@@ -1,6 +1,6 @@
 # Teste Prático Desenvolvedor Front-end
 
-Este repositório foi criado com intuito de disponibilizar os pré-requisitos e o teste prático para se tornar um Desenvolvedor Front-end da AMHP.
+Este repositório foi criado com intuito de disponibilizar os pré-requisitos e o teste prático para se tornar um **Desenvolvedor Front-end** da AMHP.
 
 ## Introdução
 
