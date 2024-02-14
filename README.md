@@ -28,7 +28,7 @@ Para a avaliação deve ser desenvolvido um protótipo utilizando Angular, React
 - Organização do código
 - Arquitetura utilizada
 - Criatividade no layout
-- Teste unitários *(OPCIONAL)*
+- Teste unitários **(Será um diferencial)**
 
 ## Processo de submissão
 
