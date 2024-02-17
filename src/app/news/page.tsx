@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import newsService from "@/service/news";
 import { NewsModel } from "@/model/news";
 import moment from "moment";
-import "moment/locale/pt-br";
 import { CircleNotch } from "@phosphor-icons/react";
 import { TitlePage } from "@/components/title-page";
+import "moment/locale/pt-br";
 
 moment.locale("pt-br");
 

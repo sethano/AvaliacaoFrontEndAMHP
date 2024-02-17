@@ -6,16 +6,16 @@ import bannerService from "@/service/banner";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { getBreakpoint } from "@/hook/breakpoints";
+import { NewsModel } from "@/model/news";
+import Link from "next/link";
+import { CircleNotch } from "@phosphor-icons/react";
+import moment from "moment";
+import "moment/locale/pt-br";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { getBreakpoint } from "@/hook/breakpoints";
-import { NewsModel } from "@/model/news";
-import moment from "moment";
-import "moment/locale/pt-br";
-import Link from "next/link";
-import { CircleNotch } from "@phosphor-icons/react";
 
 moment.locale("pt-br");
 

@@ -3,11 +3,11 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
 describe("Home", () => {
-  it("should renders a main content", () => {
+  it("should renders a div content", () => {
     render(<Home />);
 
-    const mainContent = screen.getByRole("main");
+    const divContent = screen.getByRole("div");
 
-    expect(mainContent).toBeInTheDocument();
+    expect(divContent).toBeInTheDocument();
   });
 });
