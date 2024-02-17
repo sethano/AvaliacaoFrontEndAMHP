@@ -57,6 +57,7 @@ export default function Home() {
                       ? bannerItem.urlImagemMobile
                       : bannerItem.urlImagemDesktop) || ""
                   }
+                  className="mx-auto"
                 />
               </SwiperSlide>
             );

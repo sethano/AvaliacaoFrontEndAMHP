@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  min-width: 425px;
+}
+
 :root {
   --swiper-theme-color: #058288 !important;
 }
