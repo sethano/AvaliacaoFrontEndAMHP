@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={lato.className}>
         <header className="flex justify-between items-center gap-4 p-4 fixed top-0 left-0 w-full shadow-md bg-white z-30">
-          <Link href="/">
+          <Link href="/" prefetch={false}>
             <Image
               src={AmhpLogo}
               alt="AMHP logo"
@@ -34,6 +34,7 @@ export default function RootLayout({
 
           <nav className="grow flex justify-evenly md:justify-end md:gap-4">
             <Link
+              prefetch={false}
               href="/news"
               className={
                 "px-2 rounded-sm text-amhp-dark-100 hover:bg-amhp-dark-100/5 text-lg ease-out duration-300"

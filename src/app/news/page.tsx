@@ -6,6 +6,7 @@ import { NewsModel } from "@/model/news";
 import moment from "moment";
 import "moment/locale/pt-br";
 import { CircleNotch } from "@phosphor-icons/react";
+import { TitlePage } from "@/components/title-page";
 
 moment.locale("pt-br");
 
@@ -23,9 +24,7 @@ export default function News() {
 
   return (
     <div>
-      <h3 className="text-4xl bg-amhp-dark-100 pl-4 py-6 text-amhp-gray-100 text-center">
-        Notícias
-      </h3>
+      <TitlePage title="Notícias" />
 
       {newsLoading ? (
         <div className="flex gap-2 items-center justify-center p-5">
