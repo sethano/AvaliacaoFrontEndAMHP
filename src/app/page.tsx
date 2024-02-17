@@ -102,7 +102,7 @@ export default function Home() {
               size={28}
               className="text-amhp-gray-300 animate-spin"
             />
-            <p className="text-amhp-gray-300">Carregando as notícias</p>
+            <p className="text-amhp-gray-300">Carregando notícias</p>
           </div>
         ) : (
           <div className="flex flex-row flex-wrap justify-center items-center gap-12 p-5 pb-9 lg:gap-9">
