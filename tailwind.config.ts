@@ -7,15 +7,17 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      "amhp-green": "#058288",
-      "amhp-dark": {
-        100: "#000000de",
-        300: "#404758",
-      },
-      "amhp-gray": {
-        100: "#fafafa",
-        300: "#707070",
+    extend: {
+      colors: {
+        "amhp-green": "#058288",
+        "amhp-dark": {
+          100: "#404758",
+          300: "#000000de",
+        },
+        "amhp-gray": {
+          100: "#fafafa",
+          300: "#707070",
+        },
       },
     },
   },

@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={lato.className}>
-        <header className="flex justify-between items-center gap-4 p-4 fixed top-0 left-0 w-full shadow-md">
+        <header className="flex justify-between items-center gap-4 p-4 fixed top-0 left-0 w-full shadow-md bg-white z-30">
           <Link href="/">
             <Image
               src={AmhpLogo}
