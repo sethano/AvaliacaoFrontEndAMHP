@@ -28,6 +28,7 @@ export default function RootLayout({
               src={AmhpLogo}
               alt="AMHP logo"
               className="w-32 h-9 md:w-40 md:h-11"
+              priority={true}
             />
           </Link>
 
@@ -49,7 +50,7 @@ export default function RootLayout({
           </nav>
         </header>
 
-        <div className="mt-[76px]">{children}</div>
+        <div className="md:mt-[76px] mt-[68px]">{children}</div>
       </body>
     </html>
   );
